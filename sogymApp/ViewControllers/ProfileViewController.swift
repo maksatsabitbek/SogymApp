@@ -12,7 +12,7 @@ import KeychainAccess
 class ProfileViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     private var userTextbooks = [Textbook]()
     
-    @IBOutlet weak var userTextbooksTableView: UITableView!
+    //    @IBOutlet weak var userTextbooksTableView: UITableView!
     
     override func viewWillAppear(_ animated: Bool) {
         getUserTextbooksReq((Any).self)

@@ -1,0 +1,6 @@
+framework module Pods_sogymApp {
+  umbrella header "Pods-sogymApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
